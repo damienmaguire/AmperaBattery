@@ -1,0 +1,240 @@
+VERSION ""
+
+
+NS_ :
+    NS_DESC_
+    CM_
+    BA_DEF_
+    BA_
+    VAL_
+    CAT_DEF_
+    CAT_
+    FILTER
+    BA_DEF_DEF_
+    EV_DATA_
+    ENVVAR_DATA_
+    SGTYPE_
+    SGTYPE_VAL_
+    BA_DEF_SGTYPE_
+    BA_SGTYPE_
+    SIG_TYPE_REF_
+    VAL_TABLE_
+    SIG_GROUP_
+    SIG_VALTYPE_
+    SIGTYPE_VALTYPE_
+    BO_TX_BU_
+    BA_DEF_REL_
+    BA_REL_
+    BA_DEF_DEF_REL_
+    BU_SG_REL_
+    BU_EV_REL_
+    BU_BO_REL_
+    SG_MUL_VAL_
+
+BS_: 
+BU_: BMS_Module_1 BMS_Module_2 BMS_Module_3 BMS_Module_4 
+BO_ 1120 Cells_01_to_03: 6 BMS_Module_1
+   SG_ Cell_01 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_02 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_03 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 1136 Cells_04_to_06: 6 BMS_Module_1
+   SG_ Cell_04 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_05 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_06 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 2016 Temp_01: 8 BMS_Module_1
+   SG_ Temp_01 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_1
+
+BO_ 1121 Cells_07_to_10: 8 BMS_Module_1
+   SG_ Cell_07 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_08 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_09 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_10 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 1137 Cells_11_to_14: 8 BMS_Module_1
+   SG_ Cell_11 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_12 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_13 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_14 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 2017 Temp_02: 8 BMS_Module_1
+   SG_ Temp_02 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_1
+
+BO_ 1122 Cells_15_to_18: 8 BMS_Module_1
+   SG_ Cell_15 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_16 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_17 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_18 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 1138 Cells_19_to_22: 8 BMS_Module_1
+   SG_ Cell_19 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_20 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_21 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_22 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 2018 Temp_03_to_04: 8 BMS_Module_1
+   SG_ Temp_03 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_1
+   SG_ Temp_04 : 17|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_1
+
+BO_ 1123 Cells_23_to_26: 8 BMS_Module_1
+   SG_ Cell_23 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_24 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_25 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_26 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 1139 Cells_27_to_30: 8 BMS_Module_1
+   SG_ Cell_27 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_28 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cell_29 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+   SG_ Cells_30 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_1
+
+BO_ 2019 Temp_05: 8 BMS_Module_1
+   SG_ Temp_05 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_1
+
+BO_ 1124 Cells_31_to_34: 8 BMS_Module_2
+   SG_ Cell_31 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_32 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_33 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_34 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+
+BO_ 1140 Cells_35_to_38: 8 BMS_Module_2
+   SG_ Cell_35 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_36 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_37 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_38 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+
+BO_ 2020 Temp_06: 8 BMS_Module_2
+   SG_ Temp_06 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_2
+
+BO_ 1125 Cells_39_to_42: 8 BMS_Module_2
+   SG_ Cell_39 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_40 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_41 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_42 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+
+BO_ 1141 Cells_43_to_46: 8 BMS_Module_2
+   SG_ Cell_43 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_44 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_45 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_46 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+
+BO_ 2021 Temp_07_to_08: 8 BMS_Module_2
+   SG_ Temp_07 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_2
+   SG_ Temp_08 : 17|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_2
+
+BO_ 1126 Cells_47_to_50: 8 BMS_Module_2
+   SG_ Cell_47 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_48 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_49 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_50 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+
+BO_ 1142 Cells_51_to_54: 8 BMS_Module_2
+   SG_ Cell_51 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_52 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_53 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+   SG_ Cell_54 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_2
+
+BO_ 2022 Temp_09: 8 BMS_Module_2
+   SG_ Temp_09 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_2
+
+BO_ 1128 Cells_55_to_58: 8 BMS_Module_3
+   SG_ Cell_55 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_56 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_57 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_58 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+
+BO_ 1144 Cells_59_to_62: 8 BMS_Module_3
+   SG_ Cell_59 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_60 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_61 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_62 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+
+BO_ 2024 Temp_10: 8 BMS_Module_3
+   SG_ Temp_10 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_3
+
+BO_ 1129 Cells_63_to_66: 8 BMS_Module_3
+   SG_ Cell_63 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_64 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_65 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_66 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+
+BO_ 1145 Cells_67_to_70: 8 BMS_Module_3
+   SG_ Cell_67 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_68 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_69 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_70 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+
+BO_ 2025 Temp_11_to_12: 8 BMS_Module_3
+   SG_ Temp_11 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_3
+   SG_ Temp_12 : 17|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_3
+
+BO_ 1130 Cells_71_to_74: 8 BMS_Module_3
+   SG_ Cell_71 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_72 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_73 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_74 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+
+BO_ 1146 Cells_75_to_78: 8 BMS_Module_3
+   SG_ Cell_75 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_76 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_77 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+   SG_ Cell_78 : 51|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_3
+
+BO_ 2026 Temp_13: 8 BMS_Module_3
+   SG_ Temp_13 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_3
+
+BO_ 1132 Cells_79_to_81: 6 BMS_Module_4
+   SG_ Cell_79 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_80 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_81 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+
+BO_ 1148 Cells_82_to_84: 6 BMS_Module_4
+   SG_ Cell_82 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_83 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_84 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+
+BO_ 2028 Temp_14: 8 BMS_Module_4
+   SG_ Temp_14 : 1|10@0+ (0.0556,-27.778) [0|0] "ºC" BMS_Module_4
+
+BO_ 1133 Cells_85_to_87: 6 BMS_Module_4
+   SG_ Cell_85 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_86 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_87 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+
+BO_ 1149 Cells_88_to_90: 6 BMS_Module_4
+   SG_ Cell_88 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_89 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_90 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+
+BO_ 2029 Temp_15: 8 BMS_Module_4
+   SG_ Temp_15 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_4
+
+BO_ 1134 Cells_91_to_93: 6 BMS_Module_4
+   SG_ Cell_91 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_92 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_93 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+
+BO_ 1150 Cells_94_to_96: 6 BMS_Module_4
+   SG_ Cell_94 : 3|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_95 : 19|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+   SG_ Cell_96 : 35|12@0+ (0.00125,0) [0|0] "_V" BMS_Module_4
+
+BO_ 2030 Temp_16: 8 BMS_Module_4
+   SG_ Temp_16 : 1|10@0+ (0.0556,-27.778) [0|0] "_ºC" BMS_Module_4
+
+BA_DEF_ BO_ "GenMsgBackgroundColor" STRING ;
+BA_DEF_ BO_ "GenMsgForegroundColor" STRING ;
+BA_ "GenMsgBackgroundColor" BO_ 1128 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1145 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1132 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1148 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 2028 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1133 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1149 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 2029 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1134 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 1150 "#ffffff";
+BA_ "GenMsgBackgroundColor" BO_ 2030 "#ffffff";
+BA_DEF_DEF_ "GenMsgBackgroundColor" "#ffffff";
+BA_DEF_DEF_ "GenMsgForegroundColor" "#000000";
